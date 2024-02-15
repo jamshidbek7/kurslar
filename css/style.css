@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Protest+Riot&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform:capitalize ;
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+body{
+    line-height: 1.4;
+    background-color: #2b2b2b;
+}
+.header{
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    color: bisque;
+}
+.header h1{
+    margin-bottom: 1rem;
+        font-size: 2.3rem;
+        font-weight: 900;
+
+}
+.header button{
+    padding: 7px 10px;
+        background-color: rgba(57, 125, 57, 0.674);
+        color: white;
+        opacity: 0.8;
+        font-size: 1.1rem;
+}
+
+.main{
+    width: 100%;
+    padding: 1rem 0;
+}
+.main__content{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+
+}
+
+.item{
+    width: 350px;
+    height: 330px;
+    background-color:rgb(70, 64, 64) ;
+    padding: 10px 10px;
+    color: white;
+    text-align: center;
+
+}
+
+.item__footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid white;
+}
+.item__footer p,span{
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.item button{
+    padding: 10px 44px;
+    font-size: 1.2rem;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(182, 182, 37);
+}
